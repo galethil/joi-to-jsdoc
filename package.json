@@ -1,0 +1,29 @@
+{
+  "name": "joi-to-jsdoc",
+  "version": "1.0.0",
+  "description": "Joi to jsDoc converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galethil/joi-to-jsdoc.git"
+  },
+  "keywords": [
+    "joi",
+    "jsdoc",
+    "converter",
+    "schema"
+  ],
+  "author": "galethil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galethil/joi-to-jsdoc/issues"
+  },
+  "homepage": "https://github.com/galethil/joi-to-jsdoc#readme",
+  "dependencies": {
+    "joi": "^14.3.1",
+    "lodash": "^4.17.15"
+  }
+}
