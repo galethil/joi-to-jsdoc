@@ -1,6 +1,6 @@
 {
   "name": "joi-to-jsdoc",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Joi to jsDoc converter",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/galethil/joi-to-jsdoc#readme",
   "dependencies": {
-    "joi": "^14.3.1",
+    "joi": "^17.7.0",
     "lodash": "^4.17.15"
   }
 }

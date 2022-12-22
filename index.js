@@ -1,4 +1,3 @@
-const Joi = require('joi');
 const lodash = require('lodash');
 
 const getNumber = () => {
@@ -68,7 +67,7 @@ const generateJsdocFromDescription = (description) => {
 const generateJsdoc = (joi) => {
   if (!joi) throw new Error('No Joi definition was passed.');
 
-  const description = Joi.describe(joi);
+  const description = joi.describe();
   return generateJsdocFromDescription(description);
 };
 
