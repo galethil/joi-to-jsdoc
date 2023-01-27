@@ -1,6 +1,6 @@
 {
   "name": "joi-to-jsdoc",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Joi to jsDoc converter",
   "main": "index.js",
   "scripts": {

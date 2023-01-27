@@ -16,14 +16,14 @@ const getDate = () => {
   return 'string'
 }
 
-const getAlternatives = () => {
-  return '*'
+const getAlternatives = (description) => {
+  return description.matches.map(match => generateJsdocFromDescription(match.schema)).join('|');
 }
 
 const getObject = (description) => {
   const rJsdoc = [];
 
-  lodash.forOwn(description.children, (value, key) => {
+  lodash.forOwn(description.children || description.keys, (value, key) => {
     const example = generateJsdocFromDescription(value);
 
     const isSimpleKeyName = key.match(/^\w+$/);
